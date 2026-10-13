@@ -1,0 +1,1318 @@
+{
+  "created_at": "2026-10-13T21:41:09.578004+00:00",
+  "engine": {
+    "code_sha256": {
+      "quarterly_marks/domain.py": "6cf3fd5affe77c5116007af32a1e7e40004b99a95c99d2a2ef60eb64562e84fa",
+      "quarterly_marks/inputs.py": "9fa7942782eba2eb99cdc840c558e0ac9a673b5dd4d25fad06167851ee18bf1a",
+      "quarterly_marks/scenarios.py": "33dae58218300c6e6d19bd4dbb5a113b26436761fa3aba526e9286372e270f4e",
+      "quarterly_marks/selection.py": "62785cab9141961d7f02c9b559026d937f5a8ac6bd81b87a145b92b793e5ee18",
+      "quarterly_marks/valuation.py": "cc7fb5548727ede6981b44c4ccaa94ae0a4227fddb997bd559060aded9e5c8a1",
+      "waterfall.py": "27a1c26ff37755ac76631b6c031ce9aa075c4e59f0e2ed148b018335258d50f2"
+    },
+    "runtime": {
+      "implementation": "CPython",
+      "python": "3.11.0"
+    },
+    "version": "3.0.0"
+  },
+  "integrity_sha256": "05b4e4d2c73b0effc48259dc9abf57a65ddb539be2636baec637f78cac522ceb",
+  "operation": "calculate",
+  "parent_run_ids": [],
+  "report": {
+    "as_of": "2026-08-14",
+    "companies": [
+      {
+        "arr": "20000000",
+        "arr_decline_history": [],
+        "arr_growth_pct": "21.2121212121212121212121212121212121212121212121212121212120",
+        "arr_growth_reason": null,
+        "attribution": null,
+        "cap_table": {
+          "active_series": [
+            {
+              "fund_shares": 0,
+              "issue_date": "2024-05-10",
+              "issue_price": "2.00",
+              "name": "Series A",
+              "seniority": 1,
+              "shares": 4000000
+            },
+            {
+              "fund_shares": 2500000,
+              "issue_date": "2025-11-20",
+              "issue_price": "8.00",
+              "name": "Series B",
+              "seniority": 1,
+              "shares": 5000000
+            }
+          ],
+          "common_shares": 10000000,
+          "excluded_series": []
+        },
+        "class_allocations": {
+          "Common": "94736842.1052631578947368421052631578947368421052631578947368",
+          "Series A": "37894736.8421052631578947368421052631578947368421052631578947",
+          "Series B": "47368421.0526315789473684210526315789473684210526315789473684"
+        },
+        "company": "Halcyon Metrics",
+        "enterprise_value": "180000000.0",
+        "equity_value": "180000000.0",
+        "errors": [],
+        "fund_contributions": {
+          "Common": "0",
+          "Series A": "0E-52",
+          "Series B": "23684210.5263157894736842105263157894736842105263157894736842"
+        },
+        "fund_position_value": "23684210.5263157894736842105263157894736842105263157894736842",
+        "input_history": {
+          "arr": {
+            "eligible": [
+              {
+                "company": "Halcyon Metrics",
+                "known_on": "2026-07-15",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "20000000",
+                    "company": "Halcyon Metrics",
+                    "quarter": "2026Q2",
+                    "submitted_at": "2026-07-15"
+                  },
+                  "row_number": 4
+                },
+                "value": "20000000"
+              }
+            ],
+            "excluded_after_cutoff": [
+              {
+                "company": "Halcyon Metrics",
+                "known_on": "2026-09-10",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "18500000",
+                    "company": "Halcyon Metrics",
+                    "quarter": "2026Q2",
+                    "submitted_at": "2026-09-10"
+                  },
+                  "row_number": 3
+                },
+                "value": "18500000"
+              }
+            ],
+            "identical_duplicates_ignored": []
+          },
+          "multiple": {
+            "eligible": [
+              {
+                "company": "Halcyon Metrics",
+                "known_on": "2026-07-28",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "valuation_inputs.csv",
+                  "raw": {
+                    "company": "Halcyon Metrics",
+                    "entered_at": "2026-07-28",
+                    "entered_by": "m.patel",
+                    "ev_arr_multiple": "9.0",
+                    "note": "",
+                    "quarter": "2026Q2"
+                  },
+                  "row_number": 2
+                },
+                "value": "9.0"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "prior_arr": {
+            "eligible": [
+              {
+                "company": "Halcyon Metrics",
+                "known_on": "2026-04-13",
+                "quarter": "2026Q1",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "16500000",
+                    "company": "Halcyon Metrics",
+                    "quarter": "2026Q1",
+                    "submitted_at": "2026-04-13"
+                  },
+                  "row_number": 2
+                },
+                "value": "16500000"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "prior_mark": {
+            "eligible": [],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "published_mark": {
+            "eligible": [
+              {
+                "company": "Halcyon Metrics",
+                "known_on": "2026-08-14",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "q2_marks.csv",
+                  "raw": {
+                    "company": "Halcyon Metrics",
+                    "fund_position_value": "23684211",
+                    "quarter": "2026Q2",
+                    "reported_to_lps_on": "2026-08-14"
+                  },
+                  "row_number": 2
+                },
+                "value": "23684211"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          }
+        },
+        "mark_change_pct": null,
+        "mark_change_reason": "No eligible published mark for 2026Q1",
+        "missing_inputs": [],
+        "multiple": "9.0",
+        "net_cash": "0",
+        "overrides": [],
+        "ownership_pct": "13.1578947368421052631578947368421052631578947368421052631579",
+        "prior_quarter_mark": null,
+        "prior_recalculation": {
+          "available": false,
+          "calculation": null,
+          "delta": null,
+          "input_history": {
+            "arr": {
+              "eligible": [
+                {
+                  "company": "Halcyon Metrics",
+                  "known_on": "2026-04-13",
+                  "quarter": "2026Q1",
+                  "source": {
+                    "filename": "kpis.csv",
+                    "raw": {
+                      "arr": "16500000",
+                      "company": "Halcyon Metrics",
+                      "quarter": "2026Q1",
+                      "submitted_at": "2026-04-13"
+                    },
+                    "row_number": 2
+                  },
+                  "value": "16500000"
+                }
+              ],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            },
+            "multiple": {
+              "eligible": [],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            },
+            "published_mark": {
+              "eligible": [],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            }
+          },
+          "published_mark": null,
+          "quarter": "2026Q1",
+          "reason": "No eligible multiple for 2026Q1",
+          "selected_inputs": {
+            "arr": {
+              "company": "Halcyon Metrics",
+              "known_on": "2026-04-13",
+              "quarter": "2026Q1",
+              "source": {
+                "filename": "kpis.csv",
+                "raw": {
+                  "arr": "16500000",
+                  "company": "Halcyon Metrics",
+                  "quarter": "2026Q1",
+                  "submitted_at": "2026-04-13"
+                },
+                "row_number": 2
+              },
+              "value": "16500000"
+            },
+            "multiple": null,
+            "published_mark": null
+          }
+        },
+        "rounded_fund_position_value": "23684211",
+        "selected_inputs": {
+          "arr": {
+            "company": "Halcyon Metrics",
+            "known_on": "2026-07-15",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "20000000",
+                "company": "Halcyon Metrics",
+                "quarter": "2026Q2",
+                "submitted_at": "2026-07-15"
+              },
+              "row_number": 4
+            },
+            "value": "20000000"
+          },
+          "multiple": {
+            "company": "Halcyon Metrics",
+            "known_on": "2026-07-28",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "valuation_inputs.csv",
+              "raw": {
+                "company": "Halcyon Metrics",
+                "entered_at": "2026-07-28",
+                "entered_by": "m.patel",
+                "ev_arr_multiple": "9.0",
+                "note": "",
+                "quarter": "2026Q2"
+              },
+              "row_number": 2
+            },
+            "value": "9.0"
+          },
+          "prior_arr": {
+            "company": "Halcyon Metrics",
+            "known_on": "2026-04-13",
+            "quarter": "2026Q1",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "16500000",
+                "company": "Halcyon Metrics",
+                "quarter": "2026Q1",
+                "submitted_at": "2026-04-13"
+              },
+              "row_number": 2
+            },
+            "value": "16500000"
+          },
+          "prior_mark": null,
+          "published_mark": {
+            "company": "Halcyon Metrics",
+            "known_on": "2026-08-14",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "q2_marks.csv",
+              "raw": {
+                "company": "Halcyon Metrics",
+                "fund_position_value": "23684211",
+                "quarter": "2026Q2",
+                "reported_to_lps_on": "2026-08-14"
+              },
+              "row_number": 2
+            },
+            "value": "23684211"
+          }
+        },
+        "status": "marked",
+        "warnings": [
+          {
+            "code": "INPUT_AFTER_CUTOFF",
+            "message": "arr: excluded 1 later record(s) after as-of 2026-08-14: 18,500,000 recorded 2026-09-10."
+          },
+          {
+            "code": "MISSING_PRIOR_MARK",
+            "message": "No eligible published mark for 2026Q1; mark change is unavailable."
+          }
+        ]
+      },
+      {
+        "arr": "13000000",
+        "arr_decline_history": [
+          {
+            "company": "Kestrel Labs",
+            "known_on": "2026-04-15",
+            "quarter": "2026Q1",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "16000000",
+                "company": "Kestrel Labs",
+                "quarter": "2026Q1",
+                "submitted_at": "2026-04-15"
+              },
+              "row_number": 12
+            },
+            "value": "16000000"
+          }
+        ],
+        "arr_growth_pct": "-18.7500",
+        "arr_growth_reason": null,
+        "attribution": null,
+        "cap_table": {
+          "active_series": [
+            {
+              "fund_shares": 0,
+              "issue_date": "2024-01-18",
+              "issue_price": "2.00",
+              "name": "Series A",
+              "seniority": 1,
+              "shares": 5000000
+            },
+            {
+              "fund_shares": 2500000,
+              "issue_date": "2025-07-22",
+              "issue_price": "10.00",
+              "name": "Series B",
+              "seniority": 1,
+              "shares": 5000000
+            }
+          ],
+          "common_shares": 10000000,
+          "excluded_series": []
+        },
+        "class_allocations": {
+          "Common": "36000000.00",
+          "Series A": "18000000.00",
+          "Series B": "50000000.00"
+        },
+        "company": "Kestrel Labs",
+        "enterprise_value": "104000000.0",
+        "equity_value": "104000000.0",
+        "errors": [],
+        "fund_contributions": {
+          "Common": "0",
+          "Series A": "0.00",
+          "Series B": "25000000.00"
+        },
+        "fund_position_value": "25000000.00",
+        "input_history": {
+          "arr": {
+            "eligible": [
+              {
+                "company": "Kestrel Labs",
+                "known_on": "2026-07-16",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "13000000",
+                    "company": "Kestrel Labs",
+                    "quarter": "2026Q2",
+                    "submitted_at": "2026-07-16"
+                  },
+                  "row_number": 13
+                },
+                "value": "13000000"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "multiple": {
+            "eligible": [
+              {
+                "company": "Kestrel Labs",
+                "known_on": "2026-07-29",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "valuation_inputs.csv",
+                  "raw": {
+                    "company": "Kestrel Labs",
+                    "entered_at": "2026-07-29",
+                    "entered_by": "j.chen",
+                    "ev_arr_multiple": "8.0",
+                    "note": "",
+                    "quarter": "2026Q2"
+                  },
+                  "row_number": 5
+                },
+                "value": "8.0"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "prior_arr": {
+            "eligible": [
+              {
+                "company": "Kestrel Labs",
+                "known_on": "2026-04-15",
+                "quarter": "2026Q1",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "16000000",
+                    "company": "Kestrel Labs",
+                    "quarter": "2026Q1",
+                    "submitted_at": "2026-04-15"
+                  },
+                  "row_number": 12
+                },
+                "value": "16000000"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "prior_mark": {
+            "eligible": [],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "published_mark": {
+            "eligible": [
+              {
+                "company": "Kestrel Labs",
+                "known_on": "2026-08-14",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "q2_marks.csv",
+                  "raw": {
+                    "company": "Kestrel Labs",
+                    "fund_position_value": "25000000",
+                    "quarter": "2026Q2",
+                    "reported_to_lps_on": "2026-08-14"
+                  },
+                  "row_number": 5
+                },
+                "value": "25000000"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          }
+        },
+        "mark_change_pct": null,
+        "mark_change_reason": "No eligible published mark for 2026Q1",
+        "missing_inputs": [],
+        "multiple": "8.0",
+        "net_cash": "0",
+        "overrides": [],
+        "ownership_pct": "12.500",
+        "prior_quarter_mark": null,
+        "prior_recalculation": {
+          "available": false,
+          "calculation": null,
+          "delta": null,
+          "input_history": {
+            "arr": {
+              "eligible": [
+                {
+                  "company": "Kestrel Labs",
+                  "known_on": "2026-04-15",
+                  "quarter": "2026Q1",
+                  "source": {
+                    "filename": "kpis.csv",
+                    "raw": {
+                      "arr": "16000000",
+                      "company": "Kestrel Labs",
+                      "quarter": "2026Q1",
+                      "submitted_at": "2026-04-15"
+                    },
+                    "row_number": 12
+                  },
+                  "value": "16000000"
+                }
+              ],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            },
+            "multiple": {
+              "eligible": [],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            },
+            "published_mark": {
+              "eligible": [],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            }
+          },
+          "published_mark": null,
+          "quarter": "2026Q1",
+          "reason": "No eligible multiple for 2026Q1",
+          "selected_inputs": {
+            "arr": {
+              "company": "Kestrel Labs",
+              "known_on": "2026-04-15",
+              "quarter": "2026Q1",
+              "source": {
+                "filename": "kpis.csv",
+                "raw": {
+                  "arr": "16000000",
+                  "company": "Kestrel Labs",
+                  "quarter": "2026Q1",
+                  "submitted_at": "2026-04-15"
+                },
+                "row_number": 12
+              },
+              "value": "16000000"
+            },
+            "multiple": null,
+            "published_mark": null
+          }
+        },
+        "rounded_fund_position_value": "25000000",
+        "selected_inputs": {
+          "arr": {
+            "company": "Kestrel Labs",
+            "known_on": "2026-07-16",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "13000000",
+                "company": "Kestrel Labs",
+                "quarter": "2026Q2",
+                "submitted_at": "2026-07-16"
+              },
+              "row_number": 13
+            },
+            "value": "13000000"
+          },
+          "multiple": {
+            "company": "Kestrel Labs",
+            "known_on": "2026-07-29",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "valuation_inputs.csv",
+              "raw": {
+                "company": "Kestrel Labs",
+                "entered_at": "2026-07-29",
+                "entered_by": "j.chen",
+                "ev_arr_multiple": "8.0",
+                "note": "",
+                "quarter": "2026Q2"
+              },
+              "row_number": 5
+            },
+            "value": "8.0"
+          },
+          "prior_arr": {
+            "company": "Kestrel Labs",
+            "known_on": "2026-04-15",
+            "quarter": "2026Q1",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "16000000",
+                "company": "Kestrel Labs",
+                "quarter": "2026Q1",
+                "submitted_at": "2026-04-15"
+              },
+              "row_number": 12
+            },
+            "value": "16000000"
+          },
+          "prior_mark": null,
+          "published_mark": {
+            "company": "Kestrel Labs",
+            "known_on": "2026-08-14",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "q2_marks.csv",
+              "raw": {
+                "company": "Kestrel Labs",
+                "fund_position_value": "25000000",
+                "quarter": "2026Q2",
+                "reported_to_lps_on": "2026-08-14"
+              },
+              "row_number": 5
+            },
+            "value": "25000000"
+          }
+        },
+        "status": "marked",
+        "warnings": [
+          {
+            "code": "ARR_DECLINE",
+            "message": "ARR declined 18.75% from 2026Q1."
+          },
+          {
+            "code": "PREFERENCE_EFFECT",
+            "message": "Preferred rights produce fund value $25,000,000 versus $13,000,000 from simple ownership times equity value."
+          },
+          {
+            "code": "MISSING_PRIOR_MARK",
+            "message": "No eligible published mark for 2026Q1; mark change is unavailable."
+          }
+        ]
+      },
+      {
+        "arr": "20000000",
+        "arr_decline_history": [],
+        "arr_growth_pct": "25.00",
+        "arr_growth_reason": null,
+        "attribution": null,
+        "cap_table": {
+          "active_series": [
+            {
+              "fund_shares": 3000000,
+              "issue_date": "2024-02-01",
+              "issue_price": "1.50",
+              "name": "Series A",
+              "seniority": 1,
+              "shares": 6000000
+            },
+            {
+              "fund_shares": 0,
+              "issue_date": "2025-08-12",
+              "issue_price": "5.00",
+              "name": "Series B",
+              "seniority": 1,
+              "shares": 4000000
+            }
+          ],
+          "common_shares": 8000000,
+          "excluded_series": [
+            {
+              "fund_shares": 0,
+              "issue_date": "2026-09-15",
+              "issue_price": "12.00",
+              "name": "Series C",
+              "seniority": 1,
+              "shares": 2500000
+            }
+          ]
+        },
+        "class_allocations": {
+          "Common": "71111111.1111111111111111111111111111111111111111111111111111",
+          "Series A": "53333333.3333333333333333333333333333333333333333333333333333",
+          "Series B": "35555555.5555555555555555555555555555555555555555555555555556"
+        },
+        "company": "Orbitra",
+        "enterprise_value": "160000000.0",
+        "equity_value": "160000000.0",
+        "errors": [],
+        "fund_contributions": {
+          "Common": "0",
+          "Series A": "26666666.6666666666666666666666666666666666666666666666666667",
+          "Series B": "0E-52"
+        },
+        "fund_position_value": "26666666.6666666666666666666666666666666666666666666666666667",
+        "input_history": {
+          "arr": {
+            "eligible": [
+              {
+                "company": "Orbitra",
+                "known_on": "2026-07-17",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "20000000",
+                    "company": "Orbitra",
+                    "quarter": "2026Q2",
+                    "submitted_at": "2026-07-17"
+                  },
+                  "row_number": 7
+                },
+                "value": "20000000"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "multiple": {
+            "eligible": [
+              {
+                "company": "Orbitra",
+                "known_on": "2026-07-28",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "valuation_inputs.csv",
+                  "raw": {
+                    "company": "Orbitra",
+                    "entered_at": "2026-07-28",
+                    "entered_by": "m.patel",
+                    "ev_arr_multiple": "8.0",
+                    "note": "",
+                    "quarter": "2026Q2"
+                  },
+                  "row_number": 3
+                },
+                "value": "8.0"
+              }
+            ],
+            "excluded_after_cutoff": [
+              {
+                "company": "Orbitra",
+                "known_on": "2026-09-05",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "valuation_inputs.csv",
+                  "raw": {
+                    "company": "Orbitra",
+                    "entered_at": "2026-09-05",
+                    "entered_by": "m.patel",
+                    "ev_arr_multiple": "8.5",
+                    "note": "Corrected: Q2 comp set was mis-keyed",
+                    "quarter": "2026Q2"
+                  },
+                  "row_number": 6
+                },
+                "value": "8.5"
+              }
+            ],
+            "identical_duplicates_ignored": []
+          },
+          "prior_arr": {
+            "eligible": [
+              {
+                "company": "Orbitra",
+                "known_on": "2026-04-20",
+                "quarter": "2026Q1",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "16000000",
+                    "company": "Orbitra",
+                    "quarter": "2026Q1",
+                    "submitted_at": "2026-04-20"
+                  },
+                  "row_number": 6
+                },
+                "value": "16000000"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "prior_mark": {
+            "eligible": [],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "published_mark": {
+            "eligible": [
+              {
+                "company": "Orbitra",
+                "known_on": "2026-08-14",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "q2_marks.csv",
+                  "raw": {
+                    "company": "Orbitra",
+                    "fund_position_value": "26666667",
+                    "quarter": "2026Q2",
+                    "reported_to_lps_on": "2026-08-14"
+                  },
+                  "row_number": 3
+                },
+                "value": "26666667"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          }
+        },
+        "mark_change_pct": null,
+        "mark_change_reason": "No eligible published mark for 2026Q1",
+        "missing_inputs": [],
+        "multiple": "8.0",
+        "net_cash": "0",
+        "overrides": [],
+        "ownership_pct": "16.6666666666666666666666666666666666666666666666666666666667",
+        "prior_quarter_mark": null,
+        "prior_recalculation": {
+          "available": false,
+          "calculation": null,
+          "delta": null,
+          "input_history": {
+            "arr": {
+              "eligible": [
+                {
+                  "company": "Orbitra",
+                  "known_on": "2026-04-20",
+                  "quarter": "2026Q1",
+                  "source": {
+                    "filename": "kpis.csv",
+                    "raw": {
+                      "arr": "16000000",
+                      "company": "Orbitra",
+                      "quarter": "2026Q1",
+                      "submitted_at": "2026-04-20"
+                    },
+                    "row_number": 6
+                  },
+                  "value": "16000000"
+                }
+              ],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            },
+            "multiple": {
+              "eligible": [],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            },
+            "published_mark": {
+              "eligible": [],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            }
+          },
+          "published_mark": null,
+          "quarter": "2026Q1",
+          "reason": "No eligible multiple for 2026Q1",
+          "selected_inputs": {
+            "arr": {
+              "company": "Orbitra",
+              "known_on": "2026-04-20",
+              "quarter": "2026Q1",
+              "source": {
+                "filename": "kpis.csv",
+                "raw": {
+                  "arr": "16000000",
+                  "company": "Orbitra",
+                  "quarter": "2026Q1",
+                  "submitted_at": "2026-04-20"
+                },
+                "row_number": 6
+              },
+              "value": "16000000"
+            },
+            "multiple": null,
+            "published_mark": null
+          }
+        },
+        "rounded_fund_position_value": "26666667",
+        "selected_inputs": {
+          "arr": {
+            "company": "Orbitra",
+            "known_on": "2026-07-17",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "20000000",
+                "company": "Orbitra",
+                "quarter": "2026Q2",
+                "submitted_at": "2026-07-17"
+              },
+              "row_number": 7
+            },
+            "value": "20000000"
+          },
+          "multiple": {
+            "company": "Orbitra",
+            "known_on": "2026-07-28",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "valuation_inputs.csv",
+              "raw": {
+                "company": "Orbitra",
+                "entered_at": "2026-07-28",
+                "entered_by": "m.patel",
+                "ev_arr_multiple": "8.0",
+                "note": "",
+                "quarter": "2026Q2"
+              },
+              "row_number": 3
+            },
+            "value": "8.0"
+          },
+          "prior_arr": {
+            "company": "Orbitra",
+            "known_on": "2026-04-20",
+            "quarter": "2026Q1",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "16000000",
+                "company": "Orbitra",
+                "quarter": "2026Q1",
+                "submitted_at": "2026-04-20"
+              },
+              "row_number": 6
+            },
+            "value": "16000000"
+          },
+          "prior_mark": null,
+          "published_mark": {
+            "company": "Orbitra",
+            "known_on": "2026-08-14",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "q2_marks.csv",
+              "raw": {
+                "company": "Orbitra",
+                "fund_position_value": "26666667",
+                "quarter": "2026Q2",
+                "reported_to_lps_on": "2026-08-14"
+              },
+              "row_number": 3
+            },
+            "value": "26666667"
+          }
+        },
+        "status": "marked",
+        "warnings": [
+          {
+            "code": "INPUT_AFTER_CUTOFF",
+            "message": "multiple: excluded 1 later record(s) after as-of 2026-08-14: 8.5 recorded 2026-09-05."
+          },
+          {
+            "code": "FUTURE_SERIES_EXCLUDED",
+            "message": "Excluded classes issued after quarter-end: Series C."
+          },
+          {
+            "code": "MISSING_PRIOR_MARK",
+            "message": "No eligible published mark for 2026Q1; mark change is unavailable."
+          }
+        ]
+      },
+      {
+        "arr": "12500000",
+        "arr_decline_history": [],
+        "arr_growth_pct": "0.80645161290322580645161290322580645161290322580645161290300",
+        "arr_growth_reason": null,
+        "attribution": null,
+        "cap_table": {
+          "active_series": [
+            {
+              "fund_shares": 3000000,
+              "issue_date": "2024-08-05",
+              "issue_price": "2.00",
+              "name": "Series A",
+              "seniority": 1,
+              "shares": 6000000
+            },
+            {
+              "fund_shares": 0,
+              "issue_date": "2025-12-03",
+              "issue_price": "6.00",
+              "name": "Series B",
+              "seniority": 2,
+              "shares": 6000000
+            }
+          ],
+          "common_shares": 12000000,
+          "excluded_series": []
+        },
+        "class_allocations": {
+          "Common": "59333333.3333333333333333333333333333333333333333333333333333",
+          "Series A": "29666666.6666666666666666666666666666666666666666666666666666",
+          "Series B": "36000000.00"
+        },
+        "company": "Pinewell",
+        "enterprise_value": "125000000.0",
+        "equity_value": "125000000.0",
+        "errors": [],
+        "fund_contributions": {
+          "Common": "0",
+          "Series A": "14833333.3333333333333333333333333333333333333333333333333333",
+          "Series B": "0.00"
+        },
+        "fund_position_value": "14833333.3333333333333333333333333333333333333333333333333333",
+        "input_history": {
+          "arr": {
+            "eligible": [
+              {
+                "company": "Pinewell",
+                "known_on": "2026-07-20",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "12500000",
+                    "company": "Pinewell",
+                    "quarter": "2026Q2",
+                    "submitted_at": "2026-07-20"
+                  },
+                  "row_number": 10
+                },
+                "value": "12500000"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "multiple": {
+            "eligible": [
+              {
+                "company": "Pinewell",
+                "known_on": "2026-07-29",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "valuation_inputs.csv",
+                  "raw": {
+                    "company": "Pinewell",
+                    "entered_at": "2026-07-29",
+                    "entered_by": "j.chen",
+                    "ev_arr_multiple": "10.0",
+                    "note": "",
+                    "quarter": "2026Q2"
+                  },
+                  "row_number": 4
+                },
+                "value": "10.0"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "prior_arr": {
+            "eligible": [
+              {
+                "company": "Pinewell",
+                "known_on": "2026-04-22",
+                "quarter": "2026Q1",
+                "source": {
+                  "filename": "kpis.csv",
+                  "raw": {
+                    "arr": "12400000",
+                    "company": "Pinewell",
+                    "quarter": "2026Q1",
+                    "submitted_at": "2026-04-22"
+                  },
+                  "row_number": 9
+                },
+                "value": "12400000"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "prior_mark": {
+            "eligible": [],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          },
+          "published_mark": {
+            "eligible": [
+              {
+                "company": "Pinewell",
+                "known_on": "2026-08-14",
+                "quarter": "2026Q2",
+                "source": {
+                  "filename": "q2_marks.csv",
+                  "raw": {
+                    "company": "Pinewell",
+                    "fund_position_value": "14833333",
+                    "quarter": "2026Q2",
+                    "reported_to_lps_on": "2026-08-14"
+                  },
+                  "row_number": 4
+                },
+                "value": "14833333"
+              }
+            ],
+            "excluded_after_cutoff": [],
+            "identical_duplicates_ignored": []
+          }
+        },
+        "mark_change_pct": null,
+        "mark_change_reason": "No eligible published mark for 2026Q1",
+        "missing_inputs": [],
+        "multiple": "10.0",
+        "net_cash": "0",
+        "overrides": [],
+        "ownership_pct": "12.500",
+        "prior_quarter_mark": null,
+        "prior_recalculation": {
+          "available": false,
+          "calculation": null,
+          "delta": null,
+          "input_history": {
+            "arr": {
+              "eligible": [
+                {
+                  "company": "Pinewell",
+                  "known_on": "2026-04-22",
+                  "quarter": "2026Q1",
+                  "source": {
+                    "filename": "kpis.csv",
+                    "raw": {
+                      "arr": "12400000",
+                      "company": "Pinewell",
+                      "quarter": "2026Q1",
+                      "submitted_at": "2026-04-22"
+                    },
+                    "row_number": 9
+                  },
+                  "value": "12400000"
+                }
+              ],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            },
+            "multiple": {
+              "eligible": [],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            },
+            "published_mark": {
+              "eligible": [],
+              "excluded_after_cutoff": [],
+              "identical_duplicates_ignored": []
+            }
+          },
+          "published_mark": null,
+          "quarter": "2026Q1",
+          "reason": "No eligible multiple for 2026Q1",
+          "selected_inputs": {
+            "arr": {
+              "company": "Pinewell",
+              "known_on": "2026-04-22",
+              "quarter": "2026Q1",
+              "source": {
+                "filename": "kpis.csv",
+                "raw": {
+                  "arr": "12400000",
+                  "company": "Pinewell",
+                  "quarter": "2026Q1",
+                  "submitted_at": "2026-04-22"
+                },
+                "row_number": 9
+              },
+              "value": "12400000"
+            },
+            "multiple": null,
+            "published_mark": null
+          }
+        },
+        "rounded_fund_position_value": "14833333",
+        "selected_inputs": {
+          "arr": {
+            "company": "Pinewell",
+            "known_on": "2026-07-20",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "12500000",
+                "company": "Pinewell",
+                "quarter": "2026Q2",
+                "submitted_at": "2026-07-20"
+              },
+              "row_number": 10
+            },
+            "value": "12500000"
+          },
+          "multiple": {
+            "company": "Pinewell",
+            "known_on": "2026-07-29",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "valuation_inputs.csv",
+              "raw": {
+                "company": "Pinewell",
+                "entered_at": "2026-07-29",
+                "entered_by": "j.chen",
+                "ev_arr_multiple": "10.0",
+                "note": "",
+                "quarter": "2026Q2"
+              },
+              "row_number": 4
+            },
+            "value": "10.0"
+          },
+          "prior_arr": {
+            "company": "Pinewell",
+            "known_on": "2026-04-22",
+            "quarter": "2026Q1",
+            "source": {
+              "filename": "kpis.csv",
+              "raw": {
+                "arr": "12400000",
+                "company": "Pinewell",
+                "quarter": "2026Q1",
+                "submitted_at": "2026-04-22"
+              },
+              "row_number": 9
+            },
+            "value": "12400000"
+          },
+          "prior_mark": null,
+          "published_mark": {
+            "company": "Pinewell",
+            "known_on": "2026-08-14",
+            "quarter": "2026Q2",
+            "source": {
+              "filename": "q2_marks.csv",
+              "raw": {
+                "company": "Pinewell",
+                "fund_position_value": "14833333",
+                "quarter": "2026Q2",
+                "reported_to_lps_on": "2026-08-14"
+              },
+              "row_number": 4
+            },
+            "value": "14833333"
+          }
+        },
+        "status": "marked",
+        "warnings": [
+          {
+            "code": "PREFERENCE_EFFECT",
+            "message": "Preferred rights produce fund value $14,833,333 versus $15,625,000 from simple ownership times equity value."
+          },
+          {
+            "code": "MISSING_PRIOR_MARK",
+            "message": "No eligible published mark for 2026Q1; mark change is unavailable."
+          }
+        ]
+      }
+    ],
+    "conventions": {
+      "arr_growth": "current ARR / previous quarter ARR - 1; both selected using the same knowledge cutoff",
+      "cap_history": "common shares and each class's fund holdings are assumed static; no fund common holdings supplied",
+      "currency": "USD assumed; all source monetary amounts are whole-dollar units, not thousands",
+      "equity_value": "enterprise value + net_cash; net_cash defaults to zero and may only change in a hypothetical scenario",
+      "historical_check": "ordinary marks fail on a mismatch at the publication-date cutoff; later recalculations and explicitly overridden company marks disclose differences",
+      "incomplete": "missing current ARR/multiple yields no mark; malformed or conflicting inputs and calculation failures remain fatal",
+      "knowledge_cutoff": "inclusive date; omitted cutoff means latest supplied records, never wall-clock time",
+      "mark_change": "rounded current fund mark / published prior-quarter dollars - 1",
+      "missing_baseline": "missing or zero denominator produces null percentage with a reason",
+      "ownership": "fund preferred shares / (common including option pool + active preferred shares)",
+      "preference_effect": "flag fund waterfall value differing from pro-rata equity value by at least one dollar",
+      "prior_mark": "latest eligible published prior-quarter mark, never a recomputed valuation",
+      "prior_recalculation": "recalculate prior quarter with the same cutoff and its quarter-end cap, without current overrides; retain published comparison baseline",
+      "quarter_end": "calendar quarter-end; preferred issue_date must be on or before it",
+      "review_policy": "calculate supplied values; flag ARR changes of at least 50%, declines and revisions; never infer corrections",
+      "rounding": "Decimal precision 60; ROUND_HALF_UP to whole dollars only after summing fund contributions",
+      "scenarios": "explicit overrides are hypothetical; original source observations and published marks are retained"
+    },
+    "cutoff_mode": "as_of",
+    "hypothetical": false,
+    "include_attribution": false,
+    "marked_company_count": 4,
+    "overrides": [],
+    "quarter": "2026Q2",
+    "quarter_end": "2026-06-30",
+    "status": "complete"
+  },
+  "request": {
+    "as_of": "2026-08-14",
+    "hypothetical": false,
+    "include_attribution": false,
+    "overrides": [],
+    "quarter": "2026Q2"
+  },
+  "run_id": "3c5074c2-496a-4b52-9230-0cc992a70930",
+  "schema_version": 3,
+  "sources": {
+    "cap_tables.json": {
+      "sha256": "228071f4f6aaba6be9256e5251dc3a8b17b5dbe57075729f255d8564225290d6",
+      "text": "{\n  \"Halcyon Metrics\": {\n    \"common_shares\": 10000000,\n    \"series\": [\n      {\"name\": \"Series A\", \"shares\": 4000000, \"issue_price\": \"2.00\", \"issue_date\": \"2024-05-10\", \"seniority\": 1, \"fund_shares\": 0},\n      {\"name\": \"Series B\", \"shares\": 5000000, \"issue_price\": \"8.00\", \"issue_date\": \"2025-11-20\", \"seniority\": 1, \"fund_shares\": 2500000}\n    ]\n  },\n  \"Orbitra\": {\n    \"common_shares\": 8000000,\n    \"series\": [\n      {\"name\": \"Series A\", \"shares\": 6000000, \"issue_price\": \"1.50\", \"issue_date\": \"2024-02-01\", \"seniority\": 1, \"fund_shares\": 3000000},\n      {\"name\": \"Series B\", \"shares\": 4000000, \"issue_price\": \"5.00\", \"issue_date\": \"2025-08-12\", \"seniority\": 1, \"fund_shares\": 0},\n      {\"name\": \"Series C\", \"shares\": 2500000, \"issue_price\": \"12.00\", \"issue_date\": \"2026-09-15\", \"seniority\": 1, \"fund_shares\": 0}\n    ]\n  },\n  \"Pinewell\": {\n    \"common_shares\": 12000000,\n    \"series\": [\n      {\"name\": \"Series A\", \"shares\": 6000000, \"issue_price\": \"2.00\", \"issue_date\": \"2024-08-05\", \"seniority\": 1, \"fund_shares\": 3000000},\n      {\"name\": \"Series B\", \"shares\": 6000000, \"issue_price\": \"6.00\", \"issue_date\": \"2025-12-03\", \"seniority\": 2, \"fund_shares\": 0}\n    ]\n  },\n  \"Kestrel Labs\": {\n    \"common_shares\": 10000000,\n    \"series\": [\n      {\"name\": \"Series A\", \"shares\": 5000000, \"issue_price\": \"2.00\", \"issue_date\": \"2024-01-18\", \"seniority\": 1, \"fund_shares\": 0},\n      {\"name\": \"Series B\", \"shares\": 5000000, \"issue_price\": \"10.00\", \"issue_date\": \"2025-07-22\", \"seniority\": 1, \"fund_shares\": 2500000}\n    ]\n  }\n}\n"
+    },
+    "kpis.csv": {
+      "sha256": "0366a45a0f760a72b78dba98dac92bdbc9badf0d362e780772c4edb3d407fae4",
+      "text": "company,quarter,arr,submitted_at\nHalcyon Metrics,2026Q1,16500000,2026-04-13\nHalcyon Metrics,2026Q2,18500000,2026-09-10\nHalcyon Metrics,2026Q2,20000000,2026-07-15\nHalcyon Metrics,2026Q3,21000000,2026-10-12\nOrbitra,2026Q1,16000000,2026-04-20\nOrbitra,2026Q2,20000000,2026-07-17\nOrbitra,2026Q3,24000000,2026-10-15\nPinewell,2026Q1,12400000,2026-04-22\nPinewell,2026Q2,12500000,2026-07-20\nPinewell,2026Q3,13000,2026-10-14\nKestrel Labs,2026Q1,16000000,2026-04-15\nKestrel Labs,2026Q2,13000000,2026-07-16\nKestrel Labs,2026Q3,10000000,2026-10-13\n"
+    },
+    "q2_marks.csv": {
+      "sha256": "2d8707de0f86b8a1458640b50e6eefa5e055812484018f60081971008b779396",
+      "text": "company,quarter,fund_position_value,reported_to_lps_on\nHalcyon Metrics,2026Q2,23684211,2026-08-14\nOrbitra,2026Q2,26666667,2026-08-14\nPinewell,2026Q2,14833333,2026-08-14\nKestrel Labs,2026Q2,25000000,2026-08-14\n"
+    },
+    "valuation_inputs.csv": {
+      "sha256": "fa41312514d6e71d376efaa5aec64b096bf4a77d451223d2de90ae13ec458e18",
+      "text": "company,quarter,ev_arr_multiple,entered_by,entered_at,note\nHalcyon Metrics,2026Q2,9.0,m.patel,2026-07-28,\nOrbitra,2026Q2,8.0,m.patel,2026-07-28,\nPinewell,2026Q2,10.0,j.chen,2026-07-29,\nKestrel Labs,2026Q2,8.0,j.chen,2026-07-29,\nOrbitra,2026Q2,8.5,m.patel,2026-09-05,Corrected: Q2 comp set was mis-keyed\nHalcyon Metrics,2026Q3,8.0,m.patel,2026-10-16,\nOrbitra,2026Q3,10.25,m.patel,2026-10-16,Set to Series C round price (Sep 2026)\nPinewell,2026Q3,7.0,j.chen,2026-10-16,\nKestrel Labs,2026Q3,7.0,j.chen,2026-10-16,\nKestrel Labs,2026Q3,5.5,j.chen,2026-10-20,Lowered after valuation committee review: ARR declining\n"
+    }
+  }
+}

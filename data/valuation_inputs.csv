@@ -1,0 +1,11 @@
+company,quarter,ev_arr_multiple,entered_by,entered_at,note
+Halcyon Metrics,2026Q2,9.0,m.patel,2026-07-28,
+Orbitra,2026Q2,8.0,m.patel,2026-07-28,
+Pinewell,2026Q2,10.0,j.chen,2026-07-29,
+Kestrel Labs,2026Q2,8.0,j.chen,2026-07-29,
+Orbitra,2026Q2,8.5,m.patel,2026-09-05,Corrected: Q2 comp set was mis-keyed
+Halcyon Metrics,2026Q3,8.0,m.patel,2026-10-16,
+Orbitra,2026Q3,10.25,m.patel,2026-10-16,Set to Series C round price (Sep 2026)
+Pinewell,2026Q3,7.0,j.chen,2026-10-16,
+Kestrel Labs,2026Q3,7.0,j.chen,2026-10-16,
+Kestrel Labs,2026Q3,5.5,j.chen,2026-10-20,Lowered after valuation committee review: ARR declining

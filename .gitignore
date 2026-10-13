@@ -1,0 +1,25 @@
+# Python and test artifacts
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+.coverage
+htmlcov/
+# Local runs and preparation material
+audits/
+output/
+tmp/
+validation/
+private-prep/
+math cases/
+*.docx
+*.pdf
+*.zip
+# Editor, operating system, and local credentials
+.history/
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*

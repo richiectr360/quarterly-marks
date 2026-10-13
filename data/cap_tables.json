@@ -1,0 +1,31 @@
+{
+  "Halcyon Metrics": {
+    "common_shares": 10000000,
+    "series": [
+      {"name": "Series A", "shares": 4000000, "issue_price": "2.00", "issue_date": "2024-05-10", "seniority": 1, "fund_shares": 0},
+      {"name": "Series B", "shares": 5000000, "issue_price": "8.00", "issue_date": "2025-11-20", "seniority": 1, "fund_shares": 2500000}
+    ]
+  },
+  "Orbitra": {
+    "common_shares": 8000000,
+    "series": [
+      {"name": "Series A", "shares": 6000000, "issue_price": "1.50", "issue_date": "2024-02-01", "seniority": 1, "fund_shares": 3000000},
+      {"name": "Series B", "shares": 4000000, "issue_price": "5.00", "issue_date": "2025-08-12", "seniority": 1, "fund_shares": 0},
+      {"name": "Series C", "shares": 2500000, "issue_price": "12.00", "issue_date": "2026-09-15", "seniority": 1, "fund_shares": 0}
+    ]
+  },
+  "Pinewell": {
+    "common_shares": 12000000,
+    "series": [
+      {"name": "Series A", "shares": 6000000, "issue_price": "2.00", "issue_date": "2024-08-05", "seniority": 1, "fund_shares": 3000000},
+      {"name": "Series B", "shares": 6000000, "issue_price": "6.00", "issue_date": "2025-12-03", "seniority": 2, "fund_shares": 0}
+    ]
+  },
+  "Kestrel Labs": {
+    "common_shares": 10000000,
+    "series": [
+      {"name": "Series A", "shares": 5000000, "issue_price": "2.00", "issue_date": "2024-01-18", "seniority": 1, "fund_shares": 0},
+      {"name": "Series B", "shares": 5000000, "issue_price": "10.00", "issue_date": "2025-07-22", "seniority": 1, "fund_shares": 2500000}
+    ]
+  }
+}
